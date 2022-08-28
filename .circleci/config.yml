@@ -67,11 +67,6 @@ jobs:
             echo "deploy Frontend"
             npm run frontend:deploy
       - run:
-          name: Set eb env variables
-          command: |
-            echo "set eb env"
-            eb setenv POSTGRES_HOST=$POSTGRES_HOST POSTGRES_USERNAME=$POSTGRES_USERNAME POSTGRES_DB=$POSTGRES_DB POSTGRES_PASSWORD=$POSTGRES_PASSWORD PORT=$PORT AWS_REGION=$AWS_REGION AWS_PROFILE=$AWS_PROFILE AWS_BUCKET=$AWS_BUCKET JWT_SECRET=$JWT_SECRET URL=$URL
-      - run:
           name: Deploy Backend
           # Deploying backend using root level package.json
           command: |
