@@ -71,6 +71,9 @@ jobs:
           # Deploying backend using root level package.json
           command: |
             echo "deploy backend"
+            echo $($PORT)
+            echo $(PORT)
+            echo $PORT
             npm run api:deploy
             
 workflows:
