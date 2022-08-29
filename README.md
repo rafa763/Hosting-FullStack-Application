@@ -6,3 +6,7 @@ commits in this repository corresponds to videos in the program.
 ## Project diagram
 
 ![Project diagram](https://pomf2.lain.la/f/fwemnjjf.jpg)
+
+## Pipeline diagram
+
+![Project diagram](https://pomf2.lain.la/f/sgfl2g46.jpg)
